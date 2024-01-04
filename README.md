@@ -86,3 +86,18 @@ git remote add origin "*ssh link*"
 git remote --verbose - *check info*
 ```
 
+#git log
+
+---
+
+### all commands
+
+* reduced info from g log
+```bash
+git log --oneline
+```
+* ...
+
+---
+
+
