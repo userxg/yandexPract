@@ -86,11 +86,11 @@ git remote add origin "*ssh link*"
 git remote --verbose - *check info*
 ```
 
-#git log
+# git log
 
 ---
 
-### all commands
+## all commands
 
 * reduced info from g log
 ```bash
@@ -100,4 +100,25 @@ git log --oneline
 
 ---
 
+### HEAD
+
+* **HEAD** consist of link to commit that he refers *refs/head/main*
+* **HEAD** can be used as a 
+
+### APPROACHES TO SIGN COMMITE
+
+#### Corporative
+
+* **jira id** *number of task* and text *ex*
+```bash
+git commit -m "LGC-239: corrected sort"
+```
+
+#### Convetional commite
+
+* <type>: <message>
+```bash
+git commit -m "feat: new function"
+```
+> [more about this approach](https://www.conventionalcommits.org/ru/v1.0.0-beta.4/#спецификация)
 
